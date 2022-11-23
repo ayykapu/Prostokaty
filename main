@@ -14,7 +14,7 @@ namespace App
             {
                 for (int j = 0; j < x; j++)
                 {
-                    Console.Write("*");
+                    Console.Write("■");
                     Thread.Sleep(50);
                 }
                 Console.WriteLine();
