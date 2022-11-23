@@ -1,0 +1,24 @@
+using System;
+namespace App
+{
+    class Cl1
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Podaj szerokość prostokąta: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj wysokość prostokąta: ");
+            int y = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < y; i++)
+            {
+                for (int j = 0; j < x; j++)
+                {
+                    Console.Write("*");
+                    Thread.Sleep(50);
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
